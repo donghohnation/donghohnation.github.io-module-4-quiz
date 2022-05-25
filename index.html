@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>QUIZ QUIZ QUIZ</title>
+  <!-- <link rel="icon" type="image/x-icon" href="./assets/images/profile.jpg"> -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  <h1>hello world!</h1>
+  <!-- <header class="header">
+      <div class="container header-container">
+        <h3>View High Scores</h3>
+        <h4 class="timer">Timer</h4>
+      </div>
+  </header> -->
+    <div class="start_btn">
+      <button>START QUIZ</button>
+    </div>
+
+    <div class="info_box">
+      <div class="info_title">
+        <span>Some RULEZ of this QUIZ</span>
+      </div>
+      <div class="info_list">
+        <div class="info">1. Only <span>15 seconds</span> per each question.</div>
+        <div class="info">2. Selected answer cannot be changed.</div>
+        <div class="info">3. Selections will be disabled once timer goes off.</div>
+        <div class="info">4. You may not exit the quiz once started.</div>
+        <div class="info">5. One point per correct answer.</div>
+      </div>
+      <div class="buttons">
+        <button class="quit">QUIT</button>
+        <button class="restart">CONTINUE</button>
+      </div>
+    </div>
+
+ <!-- QUIZ BOX -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">QUIZ QUIZ QUIZ</div>
+        <div class="timer">
+          <div class="time_text">time left</div>
+          <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text">
+          <!-- <span>what does html stand for?</span> -->
+        </div>
+        <div class="option_list">
+          <!-- <div class="option">
+            <span>hyper text 11111</span>
+            <div class="icon tick"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>hyper text 2</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>hyper text 3</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>hyper text 4</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+          </div> -->
+        </div>
+      </section>
+
+
+ <!-- QUIZ BOX FOOTER -->
+      <footer>
+        <div class="total_que">
+          <!-- <span><p>2</p>of<p>5</p>questions</span> -->
+        </div>
+        <button class="next_btn">Next question</button>
+      </footer>
+    </div>
+
+
+<!-- RESULT BOX -->
+      <div class="result_box">
+        <div class="icon">
+          <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the quiz</div>
+        <div class="score_text">
+          <!-- <span>and sorry, u got only <p>2</p> out of <p>5</p></span> -->
+        </div>
+        <div class="buttons">
+          <button class="restart">replay quiz</button>
+          <button class="quit">quit quiz</button>
+        </div>
+      </div>
+
+      <script src="assets/js/questions.js"></script>
+      <script src="assets/js/script.js"></script>
+
 </body>
 </html>
