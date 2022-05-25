@@ -14,10 +14,10 @@ let questions = [
     {
     numb: 2,
     question: "Cabbage contains what percentage of water?",
-    answer: "91 percent",
+    answer: "91.001 percent",
     options: [
-      "32 percent",
-      "91 percent",
+      "69.420 percent",
+      "91.001 percent",
       "108 percent",
       "66.666 percent",
     ]
